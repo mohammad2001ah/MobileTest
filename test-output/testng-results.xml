@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-09T01:25:43 EET" name="Default suite" finished-at="2026-03-09T01:26:14 EET" duration-ms="30309">
+  <suite started-at="2026-03-09T04:31:44 EET" name="Default suite" finished-at="2026-03-09T04:32:20 EET" duration-ms="35663">
     <groups>
     </groups>
-    <test started-at="2026-03-09T01:25:43 EET" name="Default test" finished-at="2026-03-09T01:26:14 EET" duration-ms="30309">
+    <test started-at="2026-03-09T04:31:44 EET" name="Default test" finished-at="2026-03-09T04:32:20 EET" duration-ms="35663">
       <class name="MyMobile.MyTestCase">
-        <test-method is-config="true" signature="MySetup()[pri:0, instance:MyMobile.MyTestCase@229f66ed]" started-at="2026-03-09T01:25:43 EET" name="MySetup" finished-at="2026-03-09T01:25:44 EET" duration-ms="27" status="PASS">
+        <test-method is-config="true" signature="MySetup()[pri:0, instance:MyMobile.MyTestCase@3eb25e1a]" started-at="2026-03-09T04:31:44 EET" name="MySetup" finished-at="2026-03-09T04:31:44 EET" duration-ms="27" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MySetup -->
-        <test-method is-config="true" signature="helloBefore()[pri:0, instance:MyMobile.MyTestCase@229f66ed]" started-at="2026-03-09T01:25:44 EET" name="helloBefore" finished-at="2026-03-09T01:26:14 EET" duration-ms="30190" status="FAIL">
+        <test-method is-config="true" signature="helloBefore()[pri:0, instance:MyMobile.MyTestCase@3eb25e1a]" started-at="2026-03-09T04:31:44 EET" name="helloBefore" finished-at="2026-03-09T04:32:20 EET" duration-ms="35453" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20267ms. 
+              <![CDATA[Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20199ms. 
 Host info: host: 'DESKTOP-5RTH0OK', ip: '192.168.1.206'
 Build info: version: '4.39.0', revision: '126f156aee'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
@@ -23,7 +23,7 @@ Command: [null, newSession {capabilities=[Capabilities {appium:app: D:\MobileTes
 Capabilities {appium:app: D:\MobileTest\src\myapplica..., appium:deviceName: abc, platformName: ANDROID}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20267ms. 
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20199ms. 
 Host info: host: 'DESKTOP-5RTH0OK', ip: '192.168.1.206'
 Build info: version: '4.39.0', revision: '126f156aee'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
@@ -78,10 +78,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- helloBefore -->
-        <test-method signature="test1()[pri:0, instance:MyMobile.MyTestCase@229f66ed]" started-at="2026-03-09T01:26:14 EET" name="test1" finished-at="2026-03-09T01:26:14 EET" duration-ms="0" status="SKIP">
+        <test-method signature="test1()[pri:0, instance:MyMobile.MyTestCase@3eb25e1a]" started-at="2026-03-09T04:32:20 EET" name="test1" finished-at="2026-03-09T04:32:20 EET" duration-ms="1" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20267ms. 
+              <![CDATA[Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20199ms. 
 Host info: host: 'DESKTOP-5RTH0OK', ip: '192.168.1.206'
 Build info: version: '4.39.0', revision: '126f156aee'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
@@ -90,7 +90,7 @@ Command: [null, newSession {capabilities=[Capabilities {appium:app: D:\MobileTes
 Capabilities {appium:app: D:\MobileTest\src\myapplica..., appium:deviceName: abc, platformName: ANDROID}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20267ms. 
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20199ms. 
 Host info: host: 'DESKTOP-5RTH0OK', ip: '192.168.1.206'
 Build info: version: '4.39.0', revision: '126f156aee'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
